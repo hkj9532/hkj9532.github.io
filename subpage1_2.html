@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GJFit - Subpage1</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: '맑은 고딕';
+            color: #222;
+        }
+        header img {
+            display: block;
+            margin: 20px auto;
+            width: 180px;
+            height: auto;
+        }
+        .topmenu {
+            text-align: center;
+            background-color: #0A3C6E;
+        }
+        .topmenu a {
+            display: inline-block;
+            color: #f2f2f2;
+            padding: 15px 25px;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        .topmenu a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .container {
+            overflow: hidden;
+            background-color: #D1DDE8;
+        }
+        aside {
+            float: left;
+            width: 200px;
+            background-color: #D1DDE8;
+            padding: 20px;
+        }
+        aside nav a {
+            display: block;
+            margin-bottom: 10px;
+            padding: 10px;
+            background-color: #0A3C6E;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        aside nav a:hover {
+            background-color: #063059;
+        }
+        main {
+            margin-left: 200px;
+            padding: 40px 20px;
+            background-color: white;
+        }
+        section {
+            background-color: #f5f8fa;
+            padding: 30px;
+            border-radius: 10px;
+            
+        }
+        section h2{
+            text-align: center;
+            color: #0A3C6E;
+            margin-bottom: 20px;
+        }
+        section img {
+            width: 30%;
+            display: block;
+            margin: 0 auto 30px;
+            border-radius: 10px;
+        }
+        footer {
+            background-color: #0A3C6E;
+            color: white;
+            text-align: center;
+            padding: 24px;
+            font-size: 14.4px;
+            clear: both;
+        }
+        .routine-con {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .routine-card {
+            display: inline-block;
+            width: 360px;
+            margin: 10px;
+            padding: 15px;
+            background-color: #EEF2F5;
+            border-radius: 10px;
+            text-align: left;
+        }
+        .routine-card h3 {
+            color: #0A3C6E;
+            margin-bottom: 10px;
+        }
+        .routine-card ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+        @media screen and (max-width: 768px) {
+            section img {
+                width: 90%;
+            }
+            .routine-card {
+                display: block;
+                width: 90%;
+                margin: 10px auto;
+            }
+            .routine-card h3 {
+                font-size: 16px;
+            }
+            .routine-card ul li {
+                font-size: 14px;
+            }
+            aside {
+                width: 100%;
+                float: none;
+                text-align: center;
+                padding: 10px 0;
+            }
+            .topmenu a {
+                display: block;
+                padding: 12px;
+                font-size: 14px;
+            }
+            main {
+                margin-left: 0;
+                padding: 20px 10px;
+            }
+            section {
+                padding: 20px 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="GJFit.png"></a>
+        <nav>
+            <div class="topmenu">
+                <a href="subpage1_1.html">오늘 뭐하지?</a>
+                <a href="subpage2_1.html">운동 Q&A</a>
+                <a href="subpage3_1.html">단백질 챙기기</a>
+                <a href="subpage4_1_1.html">부위별 꿀팁</a>
+                <a href="subpage5_1.html">헬스장 어디가?</a>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <aside>
+            <nav>
+                <a href="subpage1_1.html">초급자 루틴</a>
+                <a href="subpage1_2.html">중급자 루틴</a>
+                <a href="subpage1_3.html">상급자 루틴</a>
+            </nav>
+        </aside>
+    
+        <main>
+            <section>
+                <h2>중급자(프리웨이트, 응용 위주!)</h2>
+                <img src="routine2.png">
+                <div class="routine-con">
+                    <div class="routine-card">
+                        <h3>가슴</h3>
+                        <ul>
+                            <li>바벨 벤치프레스 4세트 x 6~10회</li>
+                            <li>인클라인 덤벨 프레스 4세트 x 8~10회</li>
+                            <li>딥스 or 푸쉬업(가중 가능) 3세트 x 한계</li>
+                            <li>케이블 크로스오버 3세트 x 12~15회</li>
+                        </ul>               
+                    </div>
+                    <div class="routine-card">
+                        <h3>등</h3>
+                        <ul>
+                            <li>풀업 3세트 x 한계</li>
+                            <li>바벨 로우 or T바 로우 4세트 x 8~10회</li>
+                            <li>랫풀다운 3세트 x 12회</li>
+                            <li>시티드 케이블 로우 3세트 x 12회</li>
+                        </ul>  
+                    </div>
+                    <div class="routine-card">
+                        <h3>어깨</h3>
+                        <ul>
+                            <li>바벨 오버헤드 프레스 4세트 x 6~10회</li>
+                            <li>덤벨 사이드 레이즈 4세트 x 12회</li>
+                            <li>리어 델트 플라이(머신 or 케이블) 3세트</li>
+                            <li>덤벨 프론트 레이즈 3세트</li>
+                        </ul>  
+                    </div>
+                    <div class="routine-card">
+                        <h3>하체</h3>
+                        <ul>
+                            <li>바벨 스쿼트 4세트 x 8~10회</li>
+                            <li>레그 프레스 4세트</li>
+                            <li>런지 or 불가리안 스쿼트 3세트</li>
+                            <li>레그 컬 / 익스텐션 각 3세트</li>
+                            <li>카프 레이즈 3세트</li>
+                        </ul>  
+                    </div>
+                    <div class="routine-card">
+                        <h3>복근</h3>
+                        <ul>
+                             <li>로프 크런치(케이블) 4세트 x 15회</li>
+                            <li>행잉 레그레이즈 3세트</li>
+                            <li>바이시클 크런치 3세트</li>
+                            <li>플랭크 3세트 x 1분</li>
+                        </ul> 
+                    </div>
+                </div>
+            </section>
+        </main> 
+    </div>
+    
+
+    <footer>
+        <h2>GJFit</h2>
+        <p>© 2025 GJFit | Gyeong-Ju Fitness Project</p>
+    </footer>
+</body>
+</html>

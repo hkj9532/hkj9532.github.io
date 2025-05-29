@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GJFit - Subpage3</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: '맑은 고딕';
+            color: #222;
+        }
+        header img {
+            display: block;
+            margin: 20px auto;
+            width: 180px;
+            height: auto;
+        }
+        .topmenu {
+            text-align: center;
+            background-color: #0A3C6E;
+        }
+        .topmenu a {
+            display: inline-block;
+            color: #f2f2f2;
+            padding: 15px 25px;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        .topmenu a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .container {
+            overflow: hidden;
+            background-color: #D1DDE8;
+        }
+        aside {
+            float: left;
+            width: 200px;
+            background-color: #D1DDE8;
+            padding: 20px;
+        }
+        aside nav a {
+            display: block;
+            margin-bottom: 10px;
+            padding: 10px;
+            background-color: #0A3C6E;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        aside nav a:hover {
+            background-color: #063059;
+        }
+        main {
+            margin-left: 200px;
+            padding: 40px 20px;
+            background-color: white;
+        }
+        section {
+            background-color: #f5f8fa;
+            padding: 30px;
+            border-radius: 10px;
+        }
+        section h2{
+            text-align: center;
+            color: #0A3C6E;
+            margin-bottom: 20px;
+        }
+        .foodimg {
+            display: block;
+            margin: 0 auto 30px;
+            width: 30%;
+            border-radius: 10px;
+        }
+        .ingredients-con {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .ingredient-card {
+            display: inline-block;
+            width: 250px;
+            margin: 10px;
+            padding: 15px;
+            background-color: #EEF2F5;
+            border-radius: 10px;
+            text-align: left;
+        }
+        .ingredient-card h3 {
+            color: #0A3C6E;
+            margin-bottom: 10px;
+        }
+        .ingredient-card ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }       
+        .recipe {
+            background-color: #EEF2f5;
+            margin-top: 30px;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .recipe h3 {
+            color: #0A3C6E;
+            margin-bottom: 10px;
+        }
+        .recipe img {
+            width: 30%;
+            display: block;
+            margin: 10px auto;
+            border-radius: 10px;
+        }
+        .recipe p {
+            font-weight: bold;
+            text-align: center;
+        }
+        footer {
+            background-color: #0A3C6E;
+            color: white;
+            text-align: center;
+            padding: 24px;
+            font-size: 14.4px;
+            clear: both;
+        }
+        @media screen and (max-width: 768px) {
+            aside {
+                width: 100%;
+                float: none;
+                text-align: center;
+                padding: 10px 0;
+            }
+            .topmenu a {
+                display: block;
+                padding: 12px;
+                font-size: 14px;
+            }
+            main {
+                margin-left: 0;
+                padding: 20px 10px;
+            }
+            .foodimg {
+                width: 90%;
+            }
+            .recipe img {
+                width: 80%;
+            }
+            .ingredient-card {
+                display: block;
+                width: 90%;
+                margin: 10px auto;
+            }
+            .ingredient-card h3,
+            .recipe h3 {
+                font-size: 16px;
+            }
+            .ingredient-card ul li,
+            .recipe p {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="GJFit.png"></a>
+        <nav>
+            <div class="topmenu">
+                <a href="subpage1_1.html">오늘 뭐하지?</a>
+                <a href="subpage2_1.html">운동 Q&A</a>
+                <a href="subpage3_1.html">단백질 챙기기</a>
+                <a href="subpage4_1_1.html">부위별 꿀팁</a>
+                <a href="subpage5_1.html">헬스장 어디가?</a>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <aside>
+            <nav>
+                <a href="subpage3_1.html">레시피1</a>
+                <a href="subpage3_2.html">레시피2</a>
+                <a href="subpage3_3.html">레시피3</a>
+            </nav>
+        </aside>
+    
+        <main>
+            <section>
+                <h2>레시피1: 닭가슴살 샐러드 </h2>
+                <img class="foodimg" src="food1.jpg">
+                <div class="ingredients-con">
+                    <div class="ingredient-card">
+                        <h3>기본 재료</h3>
+                        <ul>
+                            <li>닭가슴살 300g</li>
+                            <li>양파 1개</li>
+                            <li>로메인 1통</li>
+                            <li>라디치오 1/4통</li>
+                            <li>토마토 1개</li>
+                            <li>이태리파슬리 약간</li>
+                            <li>우유 1/2컵</li>
+                            <li>올리브유 약간</li>
+                        </ul>
+                    </div>
+                    <div class="ingredient-card">
+                        <h3>닭밑간</h3>
+                        <ul>
+                            <li>올리브유 2큰술</li>
+                            <li>맛술 1큰술</li>
+                            <li>머스터드 1/2큰술</li>
+                            <li>다진 마늘 1/2큰술</li>
+                            <li>소금, 후추 약간씩</li>
+                            <li>로즈마리 약간</li>
+                        </ul>
+                    </div>
+                    <div class="ingredient-card">
+                        <h3>드레싱</h3>
+                        <ul>
+                            <li>올리브유 3큰술</li>
+                            <li>간장 2큰술</li>
+                            <li>식초 2큰술</li>
+                            <li>다진 양파 2큰술</li>
+                            <li>설탕 1큰술</li>
+                            <li>참기름 1/2큰술</li>
+                            <li>다진 마늘 1작은술</li>
+                            <li>소금, 후추 약간</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="recipe">
+                    <h3>Step 1</h3>
+                    <img src="salad1.jpg">
+                    <p>닭가슴살은 우유에 10분 정도 담가두었다가 건져 낸 후, 물에 헹궈 물기를 제거하고 밑간 재료에 10분간 재워주세요.</p>
+                </div>
+                <div class="recipe">
+                    <h3>Step 2</h3>
+                    <img src="salad2.jpg">
+                    <p>로메인과 라디치오는 먹기 좋은 크기로 자르고, 찬물에 담갔다가 물기를 제거해주세요.</p>
+                </div>
+                <div class="recipe">
+                    <h3>Step 3</h3>
+                    <img src="salad3.jpg">
+                    <p>방울토마토와 양파는 얇은 링으로 썰어주세요.</p>
+                </div>
+                <div class="recipe">
+                    <h3>Step 4</h3>
+                    <img src="salad4.jpg">
+                    <p>달군 팬에 약간의 올리브유를 두르고 닭가슴살의 표면을 노릇하게 구운 후, 약불로 줄이고 뚜껑을 닫아 10~12분 정도 은근히 구워 속까지 익혀주세요.</p>
+                </div>
+                <div class="recipe">
+                    <h3>Step 5</h3>
+                    <img src="salad5.jpg">
+                    <p>볼에 드레싱 재료를 넣고 섞어주세요. 접시에 잎채소를 담은 후, 구워놓은 닭가슴살을 먹기 좋게 잘라 올리고 드레싱을 뿌려주세요.</p>
+                </div>
+            </section>
+        </main> 
+    </div>
+    
+    <footer>
+        <h2>GJFit</h2>
+        <p>© 2025 GJFit | Gyeong-Ju Fitness Project</p>
+    </footer>
+</body>
+</html>
